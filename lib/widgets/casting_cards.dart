@@ -50,7 +50,7 @@ class _CastCard extends StatelessWidget {
           ),
         ],
       ),
-    )
+    );
   }
-  
+  // Pagina 240
 }
