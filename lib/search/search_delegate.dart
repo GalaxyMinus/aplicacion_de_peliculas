@@ -66,7 +66,7 @@ class MovieSearchDelegate extends SearchDelegate {
 
 class _MovieItem extends StatelessWidget {
   final Movie movie;
-  const _MovieItem(this.movie);
+  _MovieItem(this.movie);
 
   @override
   Widget build(BuildContext context) {
