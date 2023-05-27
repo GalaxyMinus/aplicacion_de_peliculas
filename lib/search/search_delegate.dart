@@ -66,7 +66,7 @@ class MovieSearchDelegate extends SearchDelegate {
 
 class _MovieItem extends StatelessWidget {
   final Movie movie;
-  _MovieItem(this.movie);
+  const _MovieItem(this.movie); // ! const agregado, puede ser error?
 
   @override
   Widget build(BuildContext context) {
