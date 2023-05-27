@@ -92,7 +92,6 @@ class Cast {
         character: json["character"],
         creditId: json["credit_id"],
         order: json["order"],
-        department: departmentValues.map[json["department"]]!,
         job: json["job"],
     );
 
