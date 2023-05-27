@@ -12,14 +12,13 @@ class AppState extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [ChangeNotifierProvider(create: (_) => MoviesProvider())],
-      child: MyApp(),
+      child: const MyApp(),
     );
-  }
-  
+  }  
 }
 
 class MyApp extends StatelessWidget {
- 1 const MyApp({Key? key}) : super(key: key);
+ const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
